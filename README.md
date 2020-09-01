@@ -7,6 +7,6 @@ This project is a mini-project in class Data Mining. It is aimed at using the Gi
 Python3.6, Scala 2.11 and Spark 2.3.2, only use Spark RDD and standard Python or Scala libraries.
 
 ## Procedure
-- Constructed the social network graph to add the connection between users using Spark.
+- Constructed the social network graph to add the connection between users.
 - Calculated each edge’s betweenness by taking every node individually as the root to build the BFS tree.
 - Divided the graph into communities using the Girvan-Newman algorithm to reach the global highest modularity.
